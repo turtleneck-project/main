@@ -1,4 +1,4 @@
-/*var status ="good posture"
+var status ="good posture"
 var count=0
 async function predict() {
         // Prediction #1: run input through posenet
@@ -19,7 +19,7 @@ async function predict() {
 
         //finally draw the poses
         drawPose(pose);
-    }*/
+    }
     
 위에 코드"prediction[0].probability.toFixed(2)==1.00"에서는 웹캠상에서 우리가 학습시킨 0번자세인
 바른자세일 때 status를 good posture상태라하고 
